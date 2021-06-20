@@ -22,7 +22,7 @@
     pip install -r requirements.txt
     
     
-## 執行程式&使用方法
+## 使用方法
   
   首先，至 [Twelve Data](https://twelvedata.com) 申請帳號後取得 API KEY。
   
@@ -30,18 +30,18 @@
     <img width=500 src="img/api_request.jpg" alt="demo">
   </p>
   
-  接下來，將更換 [mystock.py](mystock.py) 當中的 `my_api_key`
+  接下來，更換 [mystock.py](mystock.py) 當中的 `my_api_key`
   
   最後，anaconda prompt 當中執行 `bokeh serve --show mystock.py`
   
   即可在 `http://localhost:5006/mystock` 當中查看結果
   
-## methods
+## 製作原理
 
-  本作品透過，本作品使用twelvedata爬取股票資料後，使用bokeh繪製網頁。
+  本作品透過，本作品使用twelvedata爬取股票資料後，使用bokeh繪製根據該資料繪製股票的技術指標。
   
 
-## 輸出結果
+## 技術指標
 
 * K線(Candlestick chart)
 * 簡單移動平均線(Simple Moving Average, SMA)(5 天, 10 天, 50 天).
