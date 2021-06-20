@@ -7,7 +7,7 @@
   因此選用了 Bokeh 作為動態網站的繪製。
   
   <p align="center">
-    <img width=800 src="img/demo.jpg" alt="demo">
+    <img width=800 src="img/demo.gif" alt="demo">
   </p>
 
 ## 環境建置
