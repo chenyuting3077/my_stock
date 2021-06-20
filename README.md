@@ -61,5 +61,9 @@
   https://ithelp.ithome.com.tw/articles/10196690
 
   https://github.com/pythonstock/stock
+  
+  https://github.com/pedromartins4/bokeh-stock-market
 
   https://github.com/twelvedata/twelvedata-python
+  
+
