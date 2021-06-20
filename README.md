@@ -12,7 +12,7 @@
 
 ## 環境建置
   
-  開啟 anaconda prompt 執行以下命令
+  開啟 anaconda prompt 執行以下命令 :
     
     conda create --name stock python=3.7
     conda activate stock
@@ -44,7 +44,7 @@
 ## 技術指標
 
 * K線(Candlestick chart)
-* 簡單移動平均線(Simple Moving Average, SMA)(5 天, 10 天, 50 天).
+* 簡單移動平均線(Simple Moving Average, SMA)(5 天, 10 天, 50 天)
 * 成交量(volume )
 
 ## 未來預計更新
