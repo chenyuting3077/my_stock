@@ -1,26 +1,45 @@
 # 互動式看盤軟體
 
   互動式看盤軟體，簡易互動式介面讓使用者可輕鬆地分析股票，未來可結合自製的量化交易策略與人工智慧模型一同使用。
-
+  
+  一直很想做一個屬於自己的看盤軟體，並包含了，量化交易策略、人工智慧模型等工具，因此這次的project先以視覺化股票資訊為主軸。
+  在視覺化的部分，我希望能做一個好看且實用的互動式前端介面，而matplotlib雖有大量的相關方法可使用，但只能輸出靜態的圖片。
+  因此選用了 Bokeh 作為動態網站的繪製。
+  
   <p align="center">
     <img width=800 src="img/demo.jpg" alt="demo">
   </p>
 
 ## 環境建置
   
+  開啟 anaconda prompt 執行以下命令
     
-    conda create --name stock
-
+    conda create --name stock python=3.7
+    conda activate stock
+    conda install git
+    git clone https://github.com/chenyuting3077/my_stock.git
+    cd my_stock
+    pip install -r requirements.txt
+    
+    
 ## 執行程式&使用方法
   
-  在 pycharm 的 terminal 當中執行 `bokeh serve --show mystock.py`
+  首先，至 [Twelve Data](https://twelvedata.com) 申請帳號後取得 API KEY。
+  
+  <p align="center">
+    <img width=500 src="img/api_request.jpg" alt="demo">
+  </p>
+  
+  接下來，將更換 [mystock.py](mystock.py) 當中的 `my_api_key`
+  
+  最後，anaconda prompt 當中執行 `bokeh serve --show mystock.py`
+  
+  即可在 `http://localhost:5006/mystock` 當中查看結果
   
 ## methods
 
   本作品透過，本作品使用twelvedata爬取股票資料後，使用bokeh繪製網頁。
-
-
-
+  
 
 ## 輸出結果
 
